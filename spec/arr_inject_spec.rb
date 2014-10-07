@@ -13,7 +13,7 @@ describe Array do
 	end
 
 	it 'should display same result as Array.inject with no parameters' do
-		expect(arr.arr_inject{ |element, result| result + element }).to eq(arr.inject{ |element, result| result + element })
+		expect(arr.arr_inject{ |element, result| result * element }).to eq(arr.inject{ |element, result| result * element })
 	end
 
 end
