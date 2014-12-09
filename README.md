@@ -12,8 +12,8 @@ If you would like a challenge, rewrite inject using two approaches: using iterat
 
 Technologies used
 =================
-Ruby
-Rspec
+ - Ruby
+ - Rspec
 
 How to use
 ==========
